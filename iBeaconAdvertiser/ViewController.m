@@ -31,7 +31,7 @@
     // I am this type of beacon (eg: display)
     CLBeaconMajorValue major = 1;
     // With this subtype (eg: iphone)
-    CLBeaconMinorValue minor = 2;
+    CLBeaconMinorValue minor = 1;
     
     CLBeaconRegion *region = [[CLBeaconRegion alloc] initWithProximityUUID:proximityUUID
                                                                      major:major
